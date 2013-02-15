@@ -15,9 +15,9 @@ require 'chargify_api_ares/resources/transaction'
 require 'chargify_api_ares/resources/usage'
 require 'chargify_api_ares/resources/webhook'
 
-if defined?(::ActiveResource::VERSION::MAJOR) &&
-      ::ActiveResource::VERSION::MAJOR == 3 &&
-      ::ActiveResource::VERSION::MINOR == 0 &&
-      ::ActiveResource::VERSION::TINY < 20
-  raise RuntimeError, 'This gem is not compatible with ActiveResource versions 3.0.0 to 3.0.19, please upgrade to at least 3.0.20'
-end
+# if defined?(::ActiveResource::VERSION::MAJOR) &&
+      # ::ActiveResource::VERSION::MAJOR == 3 &&
+      # ::ActiveResource::VERSION::MINOR == 0 &&
+      # ::ActiveResource::VERSION::TINY < 20
+  # raise RuntimeError, 'This gem is not compatible with ActiveResource versions 3.0.0 to 3.0.19, please upgrade to at least 3.0.20'
+# end
